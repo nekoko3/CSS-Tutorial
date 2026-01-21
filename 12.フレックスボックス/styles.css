@@ -35,13 +35,36 @@ footer {
   font-size: 12px;
 }
 
-
 /* body要素にスタイルを適用 */
-
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
 /* header要素にスタイルを適用 */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
 
 /* ul要素にスタイルを適用 */
+ul {
+  display: flex;
+  gap: 24px;
+}
 
 /* div要素にスタイルを適用 */
-
+div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
 /* main要素にスタイルを適用 */
+main {
+  display: flex;
+  gap: 10px;
+}
